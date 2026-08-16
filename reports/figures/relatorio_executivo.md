@@ -6,7 +6,7 @@
 
 - **Detração Crítica:** **84,36%** dos clientes da base foram classificados como **detratores** ($NPS < 7$).
 - **Impacto Direto do Atraso:** O ponto de ruptura do NPS ocorre com apenas **1 dia de atraso na entrega**. A nota média despenca de **6,85** (0 dias de atraso) para **5,54** (1 dia) e segue em queda contínua.
-- **Fricção do Atendimento:** Clientes com zero dias de atraso ainda apresentam insatisfação devido a altas taxas de reclamação (média de ~3 reclamações) e tempo prolongado para resolução de problemas (média de 5,6 dias).
+- **Fricção do Atendimento:** Clientes com zero diasde atraso ainda apresentam insatisfação devido a altas taxas de reclamação (média de ~3 reclamações) e tempo prolongado para resolução de problemas (média de 5,6 dias).
 - **Perfil de Clientes e Região:** Não há variação significativa no perfil demográfico ou regional entre promotores e detratores, o que confirma que o problema é estritamente **operacional**.
 
 ---
