@@ -1,0 +1,15 @@
+# Ambientes virtuais
+.venv/
+env/
+venv/
+ENV/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Configurações do VS Code ou sistema
+.vscode/
+.DS_Store
+Thumbs.db
