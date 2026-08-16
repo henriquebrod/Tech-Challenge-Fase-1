@@ -36,7 +36,7 @@ No varejo digital, a pesquisa de NPS é coletada de forma reativa ao final da jo
 2. **Ponto de Ruptura na Logística:** Apenas **1 dia de atraso na entrega** causa uma queda drástica na nota média do NPS (de 6,85 para 5,54), consolidando a detração do cliente.
 3. **Atrito Operacional:** Mesmo clientes sem atraso de entrega apresentam notas baixas quando expostos a múltiplos contatos com o SAC e alto tempo de resolução de chamados.
 
-![Ponto de Ruptura no NPS](reports/figures/ponto_de_ruptura_nps.png)
+![Queda do NPS por Dias de Atraso](reports/figures/queda_do_nps_medio_por_dias_de_atraso.png)
 
 ---
 
