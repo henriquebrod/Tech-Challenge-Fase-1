@@ -54,7 +54,7 @@ O trabalho seguiu quatro etapas:
 
 **2. Definição da target.** Justificativa de por que `nps_score` foi escolhida, quando ela é coletada na jornada do cliente e quais riscos existem em usá-la sem cuidado.
 
-**3. Análise Exploratória (EDA), feita em `eda.ipynb`:**
+**3. Análise Exploratória (EDA), feita em `EDA_Tech_Challenge_Fase_1.ipynb`:**
 
 - A base é dominada por detratores: 84,36% dos clientes têm NPS abaixo de 7, contra só 4,40% de promotores.
 - Um único dia de atraso já derruba a nota média de 6,85 para 5,54. É um baque rápido.
@@ -63,7 +63,7 @@ O trabalho seguiu quatro etapas:
 - Cruzando atraso e reclamações num mapa de calor (e filtrando combinações com poucos registros, para não deixar outliers distorcerem a leitura), dá pra ver dois territórios bem definidos: um de Promotores/Neutros (entrega sem atraso ou no máximo 1 dia, com menos de 2 reclamações) e uma zona crítica de detração, que começa a partir do 2º dia de atraso ou da 3ª reclamação.
 - Idade, tempo de relacionamento, valor do pedido e região não explicam a variação do NPS, o que reforça que o problema é operacional, não de perfil de cliente.
 
-**4. Modelagem preditiva (desafio opcional), feita em `modelo.ipynb`,** usando as 4 variáveis operacionais acima, com separação treino/teste de 80/20 (`random_state=42`):
+**4. Modelagem preditiva (desafio opcional), feita em `Desafio_Tech_Challenge_Fase_1.ipynb`,** usando as 4 variáveis operacionais acima, com separação treino/teste de 80/20 (`random_state=42`):
 
 - **Regressão (OLS):** explica 55,6% da variação do NPS (R² = 0,556), com todas as variáveis estatisticamente significativas. A equação encontrada foi aproximadamente: `NPS ≈ 9,34 − 0,94 × dias_atraso − 0,39 × reclamações − 0,33 × contatos_sac − 0,15 × tempo_resolução`. Erro médio de cerca de 1,3 a 1,7 pontos de NPS.
 - **Classificação (Regressão Logística):** identifica 95% dos clientes que realmente viram detratores (recall), acertando 89% das vezes que aponta um risco (precisão).
