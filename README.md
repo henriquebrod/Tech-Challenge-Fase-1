@@ -89,8 +89,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
 │   ├── eda.ipynb        # análise exploratória
 │   └── modelo.ipynb     # modelos de regressão e classificação
 ├── reports/
-│   ├── Documentacao_escrita.pdf  # respostas de negócio
-│   └── apresentacao_final.pptx   # apresentação para stakeholders
+│   ├── Tech Challenge - Análise de Fatores Operacionais e NPS no E-commerce.pdf  # respostas de negócio
+│   └── Apresentacao_Final.pdf                                                    # apresentação para stakeholders
 └── README.md
 ```
 
