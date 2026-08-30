@@ -84,10 +84,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
 ### Estrutura do repositório
 
 ```
-├── data/            # base de dados (ou referência à fonte)
+├── data/                                                                         # base de dados (ou referência à fonte)
 ├── notebooks/
-│   ├── eda.ipynb        # análise exploratória
-│   └── modelo.ipynb     # modelos de regressão e classificação
+│   ├── EDA_Tech_Challenge_Fase_1.ipynb                                           # análise exploratória
+│   └── Desafio_Tech_Challenge_Fase_1.ipynb                                       # modelos de regressão e classificação
 ├── reports/
 │   ├── Tech Challenge - Análise de Fatores Operacionais e NPS no E-commerce.pdf  # respostas de negócio
 │   └── Apresentacao_Final.pdf                                                    # apresentação para stakeholders
@@ -98,8 +98,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
 
 1. Clone o repositório.
 2. Instale as dependências acima.
-3. Rode `notebooks/eda.ipynb` do início ao fim (a base é lida direto de uma URL pública em CSV, sem precisar baixar nada manualmente).
-4. Rode `notebooks/modelo.ipynb` do início ao fim para reproduzir os modelos, com e sem tratamento de outliers.
-5. Para o contexto de negócio completo, veja `reports/Documentacao_escrita.pdf`, e para a versão executiva, `reports/apresentacao_final.pptx`.
+3. Rode `notebooks/EDA_Tech_Challenge_Fase_1.ipynb` do início ao fim (a base é lida direto de uma URL pública em CSV, sem precisar baixar nada manualmente).
+4. Rode `notebooks/Desafio_Tech_Challenge_Fase_1.ipynb` do início ao fim para reproduzir os modelos, com e sem tratamento de outliers.
+5. Para o contexto de negócio completo, veja `reports/Tech Challenge - Análise de Fatores Operacionais e NPS no E-commerce.pdf`, e para a versão executiva, `reports/Apresentacao_Final.pptx`.
 
 > 🔁 Os notebooks usam `random_state=42` na separação treino/teste, então os números deste README devem bater exatamente ao reproduzir.
