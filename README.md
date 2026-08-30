@@ -100,6 +100,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
 2. Instale as dependências acima.
 3. Rode `notebooks/EDA_Tech_Challenge_Fase_1.ipynb` do início ao fim (a base é lida direto de uma URL pública em CSV, sem precisar baixar nada manualmente).
 4. Rode `notebooks/Desafio_Tech_Challenge_Fase_1.ipynb` do início ao fim para reproduzir os modelos, com e sem tratamento de outliers.
-5. Para o contexto de negócio completo, veja `reports/Tech Challenge - Análise de Fatores Operacionais e NPS no E-commerce.pdf`, e para a versão executiva, `reports/Apresentacao_Final.pptx`.
+5. Para o contexto de negócio completo, veja `reports/Tech Challenge - Análise de Fatores Operacionais e NPS no E-commerce.pdf`, e para a versão executiva, `reports/Apresentacao_Final.pdf`.
 
 > 🔁 Os notebooks usam `random_state=42` na separação treino/teste, então os números deste README devem bater exatamente ao reproduzir.
